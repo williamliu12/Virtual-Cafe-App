@@ -1,5 +1,6 @@
 {
-  "name": "project_chat_application",
+  "homepage": "https://williamliu12.github.io/Virtual-Cafe-App/",
+  "name": "virtual-cafe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,8 @@
     "socket.io-client": "^2.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -11,7 +11,7 @@ import backgroundImage from './OutdoorRestaurant.jpeg';
 
 import './Chat.css';
 
-const ENDPOINT = 'http://localhost:3000/';
+const ENDPOINT = 'https://project-chat-application.herokuapp.com/';
 
 let socket;
 
