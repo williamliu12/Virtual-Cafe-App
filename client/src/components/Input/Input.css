@@ -11,7 +11,7 @@
   background: rgb(255, 255, 255, 0.2);
 }
 
-input::placeholder{
+.input::placeholder{
   color: white;
 }
 
@@ -24,9 +24,10 @@ input:focus, textarea:focus, select:focus{
   text-transform: uppercase;
   text-decoration: none;
   /* background: rgb(0, 0, 0, 0.8); */
-  background: rgb(70, 58, 58);
+  background: rgb(0, 0, 0, 0.8);
   padding: 20px;
   display: inline-block;
   border: none;
   width: 20%;
+  border-bottom-right-radius: 8px; 
 }

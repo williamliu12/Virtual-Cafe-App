@@ -19,6 +19,16 @@
   background: rgb(255, 255, 255, 0.1);
 }
 
+.youtube-iframe{
+  visibility: hidden;
+  position: fixed;
+  z-index: -1;
+}
+
+/* .spotifyContainer{
+  align-self: center;
+} */
+
 @media (min-width: 320px) and (max-width: 480px) {
   .outerContainer {
     height: 100%;

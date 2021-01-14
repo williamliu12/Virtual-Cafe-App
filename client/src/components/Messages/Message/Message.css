@@ -31,7 +31,8 @@
   display: flex;
   align-items: center;
   font-family: Helvetica;
-  color: #828282;
+  /* color: #828282; */
+  color: white;
   letter-spacing: 0.3px;
   
 }
@@ -54,6 +55,7 @@
 
 .colorWhite {
   color: white;
+  color: #353535;
 }
 
 .colorDark {

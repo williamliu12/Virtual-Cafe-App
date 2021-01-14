@@ -7,11 +7,11 @@ import Messages from '../Messages/Messages';
 import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
 
-import backgroundImage from './OutdoorRestaurant.jpeg';
 
 import './Chat.css';
 
-const ENDPOINT = 'https://project-chat-application.herokuapp.com/';
+const ENDPOINT = 'https://virtual-cafe-app.herokuapp.com/';
+
 
 let socket;
 
@@ -64,8 +64,11 @@ const Chat = ({ location }) => {
           <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
       </div>
       <TextContainer users={users}/>
+      <div className = "spotifyContainer">
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9RwfGbeGQwP" width="300" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      </div>
       <div>
-        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9RwfGbeGQwP" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe className = "youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   );
