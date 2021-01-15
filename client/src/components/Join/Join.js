@@ -30,6 +30,9 @@ export default function SignIn() {
           </button>
         </Link>
       </div>
+      <div className="watermark">
+        Artwork: https://www.artstation.com/artwork/nQy5qK
+      </div>
     </div>
   );
 }

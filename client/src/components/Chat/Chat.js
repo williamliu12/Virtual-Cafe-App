@@ -68,7 +68,10 @@ const Chat = ({ location }) => {
         <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9RwfGbeGQwP" width="300" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
       <div>
-      <iframe className = "youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe className = "youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div className="watermark">
+        Artwork: https://www.artstation.com/artwork/nQy5qK
       </div>
     </div>
   );
