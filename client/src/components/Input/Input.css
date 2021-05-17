@@ -17,6 +17,7 @@
 
 input:focus, textarea:focus, select:focus{
   outline: none;
+  color: rgb(255, 255, 255);
 }
 
 .sendButton {

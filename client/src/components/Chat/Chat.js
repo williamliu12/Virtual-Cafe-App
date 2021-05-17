@@ -28,7 +28,7 @@ const Chat = ({ location }) => {
     socket = io(ENDPOINT);
 
     setRoom(room);
-    setName(name)
+    setName(name);
 
     socket.emit('join', { name, room }, (error) => {
       if(error) {
@@ -54,7 +54,7 @@ const Chat = ({ location }) => {
       socket.emit('sendMessage', message, () => setMessage(''));
     }
   }
-
+// Have a private chatting system
   return (
     <div className="outerContainer">
     {/* <img classname = "backgroundCafe" src = {backgroundImage} alt = "background image"/> */}
@@ -68,7 +68,7 @@ const Chat = ({ location }) => {
         <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9RwfGbeGQwP" width="300" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
       <div>
-      <iframe className = "youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      {/* <iframe className = "youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
       </div>
       <div className="watermark">
         Artwork: https://www.artstation.com/artwork/nQy5qK
