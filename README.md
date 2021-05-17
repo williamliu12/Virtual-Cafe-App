@@ -1,3 +1,5 @@
-To run the application, do,
+To run the application,
 
-npm i && npm start on the client side
+cd into client and run the command in the terminal
+
+```npm i && npm start```
